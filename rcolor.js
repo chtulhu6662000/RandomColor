@@ -13,8 +13,8 @@
     }
 }(this, function () {
 
-	var RColor = function() {
-		this.hue			= Math.random(),
+	var RColor = function(randomValue) {
+		this.hue			= randomValue || Math.random(),
 		this.goldenRatio 	= 0.618033988749895;
 		this.hexwidth		= 2;
 	};
